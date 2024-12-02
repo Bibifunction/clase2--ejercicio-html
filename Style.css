@@ -1,0 +1,130 @@
+/* Estilos generales */
+
+/* Cuerpo */
+
+body {
+  font-family: Arial, Verdana, sans-serif; /* Fuente del cuerpo */
+  background-color: #f5e6d3; /* Fondo principal crema*/
+  color: #c0a060; /* Azul oscuro para textos*/
+  line-height: 1.6;
+  font-size: 1rem; /* Cuerpo de texto(16px)*/
+}
+
+/* Container principal */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* Centrado */
+  padding: 0 20px; /* Espaciado en los lados */
+}
+
+/* Cabecera */
+
+header {
+  background: linear-gradient(45deg, #1a2c4e, #2a3c5e); /* Fondo degradado */
+  color: #c0a060; /* Texto dorado */
+  padding: 2rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+  text-align: center;
+}
+
+header h1 {
+  font-family: Georgia, Garamond, serif; /* Fuente de los titulos */
+  font-size: 2.5rem; /* Tamaño del titulo principal (40px) */
+}
+
+header p {
+  font-size: 1.25rem; /* Tamaño textos secundarios */
+}
+
+/* Articulos */
+
+article {
+  margin-bottom: 2rem; /* Separacion entre articulos */
+}
+
+.new-section {
+  padding: 1.5rem;
+  margin-bottom: 3rem; /* Separacion entre secciones */
+}
+
+/* Tarjetas de noticias (cards) */
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid rgba(192, 160, 96, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.card h2,
+.card h3 {
+  color: #1a3c8c;
+}
+
+.card p {
+  color: #707070; /* Color para textos secundarios */
+}
+
+/* Imagen de noticias */
+
+.news-image {
+  width: 40%;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+.news-image:hover {
+  transform: scale(1.02);
+}
+
+/* Seccion de noticias braves */
+
+.sidebar {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.sidebar h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar h4 {
+  font-size: 1.25rem; /* Tamaño de los subtitulos */
+}
+.sidebar p {
+  font-size: 1rem; /* Tamaño del texto de noticias breves */
+}
+
+/* Pie de paginas */
+
+footer {
+  text-align: center;
+  background-color: #1a2c4e;
+  color: #ffffff;
+}
+
+/* Estilos de los titulos */
+
+h2,
+h3,
+h4 {
+  color: #1a2c4e;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
